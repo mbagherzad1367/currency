@@ -1,0 +1,7 @@
+@protocol = https
+@host = openexchangerates.org/api/
+@url =  {{protocol}}://{{host}}
+@appId = 'b354b5f63b5e41c5ba855a2c46fecdc4'
+###
+GET {{url}}/latest.json?app_id={{appId}}
+Accept: application/json
